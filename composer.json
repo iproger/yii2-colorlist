@@ -12,10 +12,13 @@
     ],
     "homepage": "https://github.com/iproger/yii2-colorlist",
     "require": {},
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/iproger/yii2-colorlist"
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "iproger\\colorlist\\": ""
         }
-    ]
+    }
 }

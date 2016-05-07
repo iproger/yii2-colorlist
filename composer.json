@@ -1,0 +1,21 @@
+{
+    "name": "iproger/yii2-colorlist",
+    "description": "List of colors for input hint",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Mykhailo Shatilov",
+            "email": "proger.mixa@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/iproger/yii2-colorlist",
+    "require": {},
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/iproger/yii2-colorlist"
+        }
+    ]
+}

@@ -1,2 +1,3 @@
-# yii2-colorlist
+# Colorlist widget for Yii 2
+
 List of colors for input hint

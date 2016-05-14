@@ -1,19 +1,19 @@
 <?php
 
-namespace iproger\colorlist;
+namespace iproger\colorlist\widgets;
 
 use yii\base\Widget;
 use yii\helpers\ArrayHelper;
 //use backend\models\Color;
 
-class ColorWidget extends Widget
+class ColorList extends Widget
 {
 
     public $attributes = [];
 
     public function run()
     {
-        $colors = array_flip($this->getColorsList());
+        $colors = array_flip($this->getColors());
 
         return $this->render('datalist', [
             'colors' => $colors,
@@ -21,7 +21,7 @@ class ColorWidget extends Widget
         ]);
     }
 
-    public function getColorsList()
+    public function getColors()
     {
         return ArrayHelper::map(Color::find()->orderBy(['id' => SORT_ASC])->all(), 'id', 'name');
     }

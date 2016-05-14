@@ -1,7 +1,7 @@
 <?php
 
-use backend\widgets\Color\ColorWidget;
-use backend\components\MyHtml;
+use iproger\extendedhtml\ExtendedHtml;
+
 ?>
 
-<?= MyHtml::dataList(null, $colors, $attributes) ?>
+<?= ExtendedHtml::dataList(null, $colors, $attributes) ?>

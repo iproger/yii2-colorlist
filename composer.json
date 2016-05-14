@@ -14,11 +14,18 @@
     "require": {},
     "require": {
         "php": ">=5.4.0",
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+        "iproger/yii2-extendedhtml": "dev-master"
     },
     "autoload": {
         "psr-4": {
             "iproger\\colorlist\\": ""
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:iproger/yii2-extendedhtml.git"
+        }
+    ]
 }

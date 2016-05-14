@@ -3,7 +3,6 @@
     "description": "List of colors for input hint",
     "type": "yii2-extension",
     "license": "MIT",
-    "version": "0.1.0",
     "authors": [
         {
             "name": "Mykhailo Shatilov",
@@ -13,9 +12,8 @@
     "homepage": "https://github.com/iproger/yii2-colorlist",
     "require": {},
     "require": {
-        "php": ">=5.4.0",
         "yiisoft/yii2": "*",
-        "iproger/yii2-extendedhtml": "dev-master"
+        "iproger/yii2-extendedhtml": "*"
     },
     "autoload": {
         "psr-4": {

@@ -2,6 +2,4 @@
 
 use iproger\extendedhtml\ExtendedHtml;
 
-?>
-
-<?= ExtendedHtml::dataList(null, $colors, $attributes) ?>
+echo ExtendedHtml::dataList(null, $colors, $attributes);

@@ -3,7 +3,6 @@
 namespace iproger\colorlist;
 
 use yii\helpers\ArrayHelper;
-use iproger\colorlist\models\Color;
 
 class ColorList extends widgets\ColorList\AbstractColorList
 {
@@ -21,7 +20,7 @@ class ColorList extends widgets\ColorList\AbstractColorList
 
     public function getModel()
     {
-        return Color;
+        return 'iproger\colorlist\models\Color';
     }
 
 }

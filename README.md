@@ -27,8 +27,11 @@ Put this code to composer.json.
     "iproger/yii2-colorlist": "*"
 },
 "scripts": {
-    "post-install-cmd": ["yii migrate --migrationPath=@vendor/iproger/yii2-colorlist/migrations"]
+    "post-update-cmd": ["yii migrate --migrationPath=@vendor/iproger/yii2-colorlist/migrations"]
 }
+```
+```
+composer update
 ```
 
 And confirm the migration.

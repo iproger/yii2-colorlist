@@ -1,8 +1,8 @@
 <?php
 
-namespace iproger\colorlist\widgets;
+namespace iproger\colorlist\widgets\ColorList;
 
-class AbstractColorList extends yii\base\Widget
+abstract class AbstractColorList extends \yii\base\Widget
 {
 
     public $attributes = [];
@@ -15,5 +15,5 @@ class AbstractColorList extends yii\base\Widget
         ]);
     }
 
-    public function getColors();
+    abstract public function getColors();
 }

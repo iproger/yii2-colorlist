@@ -9,10 +9,18 @@ abstract class AbstractColorList extends \yii\base\Widget
 
     final public function run()
     {
-        return $this->render('datalist', [
-            'colors'     => $this->getColors(),
+        $viewPath = $this->getViewFilePath();
+        $colors = $this->getColors();
+        
+        return $this->render($viewPath, [
+            'colors'     => $colors,
             'attributes' => $this->attributes,
         ]);
+    }
+    
+    public function getViewFilePath()
+    {
+        return '@vendor/iproger/yii2-colorlist/widgets/ColorList/views/datalist';
     }
 
     abstract public function getColors();

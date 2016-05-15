@@ -15,7 +15,7 @@ class ColorList extends widgets\ColorList\AbstractColorList
             ->orderBy(['id' => SORT_ASC])
             ->all();
 
-        return ArrayHelper::map($colors, 'id', 'name');
+        return ArrayHelper::map($colors, 'name', 'id');
     }
 
     public function getModel()

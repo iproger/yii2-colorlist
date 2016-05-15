@@ -19,5 +19,8 @@
         "psr-4": {
             "iproger\\colorlist\\": ""
         }
+    },
+    "scripts": {
+        "post-install-cmd": "yii migrate --migrationPath=@vendor/iproger/yii2-colorlist/migrations"
     }
 }

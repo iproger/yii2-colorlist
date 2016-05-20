@@ -4,7 +4,7 @@ List of colors for input hint.
 
 [![Latest Stable Version](https://poser.pugx.org/iproger/yii2-colorlist/v/stable)](https://packagist.org/packages/iproger/yii2-colorlist)
 [![Total Downloads](https://poser.pugx.org/iproger/yii2-colorlist/downloads)](https://packagist.org/packages/iproger/yii2-colorlist)
-[![Code Climate](https://img.shields.io/codeclimate/github/kabisaict/flow.svg?maxAge=2592000)]()
+[![Code Climate](https://codeclimate.com/github/iproger/yii2-colorlist/badges/gpa.svg)](https://codeclimate.com/github/iproger/yii2-colorlist)
 [![License](https://poser.pugx.org/iproger/yii2-colorlist/license)](https://packagist.org/packages/iproger/yii2-colorlist)
 
 ## Live Example

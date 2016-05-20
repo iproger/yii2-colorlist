@@ -2,6 +2,10 @@
 
 List of colors for input hint.
 
+[![Latest Stable Version](https://poser.pugx.org/iproger/yii2-colorlist/v/stable)](https://packagist.org/packages/iproger/yii2-colorlist)
+[![Total Downloads](https://poser.pugx.org/iproger/yii2-colorlist/downloads)](https://packagist.org/packages/iproger/yii2-colorlist)
+[![License](https://poser.pugx.org/iproger/yii2-colorlist/license)](https://packagist.org/packages/iproger/yii2-colorlist)
+
 ## Live Example
 https://jsfiddle.net/iproger/o17tyym5/2/
 

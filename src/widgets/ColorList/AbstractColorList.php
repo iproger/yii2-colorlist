@@ -20,7 +20,7 @@ abstract class AbstractColorList extends \yii\base\Widget
     
     public function getViewFilePath()
     {
-        return '@vendor/iproger/yii2-colorlist/widgets/ColorList/views/datalist';
+        return '@vendor/iproger/yii2-colorlist/src/widgets/ColorList/views/datalist';
     }
 
     abstract public function getColors();

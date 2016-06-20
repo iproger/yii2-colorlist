@@ -17,10 +17,10 @@
     },
     "autoload": {
         "psr-4": {
-            "iproger\\yii2\\colorlist\\": ""
+            "iproger\\yii2\\colorlist\\": "src/"
         }
     },
     "scripts": {
-        "post-install-cmd": "yii migrate --migrationPath=@vendor/iproger/yii2-colorlist/migrations"
+        "post-install-cmd": "yii migrate --migrationPath=@vendor/iproger/yii2-colorlist/src/migrations"
     }
 }

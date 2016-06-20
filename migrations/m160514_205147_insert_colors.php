@@ -1,5 +1,7 @@
 <?php
 
+namespace iproger\yii2\colorlist\migrations;
+
 use yii\db\Migration;
 
 

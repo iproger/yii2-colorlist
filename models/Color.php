@@ -1,6 +1,6 @@
 <?php
 
-namespace iproger\colorlist\models;
+namespace iproger\yii2\colorlist\models;
 
 /**
  * This is the model class for table "color".

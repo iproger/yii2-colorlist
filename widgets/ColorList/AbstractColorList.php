@@ -1,6 +1,6 @@
 <?php
 
-namespace iproger\colorlist\widgets\ColorList;
+namespace iproger\yii2\colorlist\widgets\ColorList;
 
 abstract class AbstractColorList extends \yii\base\Widget
 {

@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "iproger\\colorlist\\": ""
+            "iproger\\yii2\\colorlist\\": ""
         }
     },
     "scripts": {

@@ -1,6 +1,6 @@
 <?php
 
-namespace iproger\colorlist;
+namespace iproger\yii2\colorlist;
 
 use yii\helpers\ArrayHelper;
 
@@ -20,7 +20,7 @@ class ColorList extends widgets\ColorList\AbstractColorList
 
     public function getModel()
     {
-        return 'iproger\colorlist\models\Color';
+        return 'iproger\yii2\colorlist\models\Color';
     }
 
 }

@@ -35,7 +35,7 @@ composer install iproger/yii2-colorlist
 
 ### Execute below command from application root directory:
 ```
-yii migrate --migrationPath=@vendor/iproger/yii2-colorlist/src/migrations
+php yii migrate --migrationPath=@vendor/iproger/yii2-colorlist/src/migrations
 ```
 And confirm the migration.
 

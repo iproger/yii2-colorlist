@@ -25,9 +25,9 @@ class Color extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-        [['name'], 'required'],
-        [['name'], 'string', 'max' => 255],
-        [['name'], 'unique'],
+            [['name'], 'required'],
+            [['name'], 'string', 'max' => 255],
+            [['name'], 'unique'],
         ];
     }
 
@@ -37,9 +37,8 @@ class Color extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-        'id'   => 'ID',
-        'name' => 'Name',
+            'id' => 'ID',
+            'name' => 'Name',
         ];
     }
-
 }

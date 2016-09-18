@@ -1,16 +1,12 @@
 <?php
 
-namespace iproger\yii2\colorlist\migrations;
-
 use yii\db\Migration;
-
 
 /**
  * Handles the insrting for table `color`.
  */
 class m160514_205147_insert_colors extends Migration
 {
-
     private $tableName = '{{%color}}';
 
     /**
@@ -77,5 +73,4 @@ class m160514_205147_insert_colors extends Migration
     {
         $this->truncateTable($this->tableName);
     }
-
 }

@@ -1,7 +1,5 @@
 <?php
 
-namespace iproger\yii2\colorlist\migrations;
-
 use yii\db\Migration;
 
 /**
@@ -9,16 +7,16 @@ use yii\db\Migration;
  */
 class m160514_201204_create_color_table extends Migration
 {
-
-    private $tableName = 'color';
+    private $tableName = '{{%color}}';
 
     /**
      * @inheritdoc
      */
     public function up()
     {
-        $this->createTable($this->tableName, [
-            'id'   => $this->primaryKey(),
+        $this->createTable($this->tableName,
+            [
+            'id' => $this->primaryKey(),
             'name' => $this->string()->notNull()->unique(),
         ]);
     }
@@ -30,5 +28,4 @@ class m160514_201204_create_color_table extends Migration
     {
         $this->dropTable($this->tableName);
     }
-
 }

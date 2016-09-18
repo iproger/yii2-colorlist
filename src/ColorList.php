@@ -22,5 +22,4 @@ class ColorList extends widgets\ColorList\AbstractColorList
     {
         return 'iproger\yii2\colorlist\models\Color';
     }
-
 }

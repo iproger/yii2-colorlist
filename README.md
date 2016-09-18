@@ -32,9 +32,6 @@ composer install iproger/yii2-colorlist
     "iproger/yii2-colorlist": "*"
 }
 ```
-```
-composer update
-```
 
 ### Execute below command from application root directory:
 ```

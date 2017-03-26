@@ -10,7 +10,6 @@
         }
     ],
     "homepage": "https://github.com/iproger/yii2-colorlist",
-    "require": {},
     "require": {
         "yiisoft/yii2": "*",
         "iproger/yii2-extendedhtml": "*"

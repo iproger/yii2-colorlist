@@ -4,10 +4,15 @@ namespace iproger\yii2\colorlist;
 
 use yii\helpers\ArrayHelper;
 
+/**
+ * Class ColorList
+ *
+ * @package iproger\yii2\colorlist
+ */
 class ColorList extends widgets\ColorList\AbstractColorList
 {
     /**
-     * @return mixed
+     * {@inheritdoc}
      */
     public function getColors()
     {

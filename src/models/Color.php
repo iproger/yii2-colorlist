@@ -5,12 +5,10 @@ namespace iproger\yii2\colorlist\models;
 /**
  * This is the model class for table "color".
  *
- * @property integer $id
- * @property string $name
+ * @package iproger\yii2\colorlist\models
  */
 class Color extends \yii\db\ActiveRecord
 {
-
     /**
      * @inheritdoc
      */

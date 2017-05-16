@@ -2,4 +2,9 @@
 
 use iproger\yii2\extendedhtml\ExtendedHtml;
 
-echo ExtendedHtml::dataList(null, $colors, $attributes);
+/** @var array $colors */
+/** @var array $attributes */
+
+?>
+
+<?php echo ExtendedHtml::dataList(null, $colors, $attributes); ?>

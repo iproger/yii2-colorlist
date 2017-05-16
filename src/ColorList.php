@@ -6,7 +6,9 @@ use yii\helpers\ArrayHelper;
 
 class ColorList extends widgets\ColorList\AbstractColorList
 {
-
+    /**
+     * @return mixed
+     */
     public function getColors()
     {
         $model = $this->getModel();
@@ -18,6 +20,9 @@ class ColorList extends widgets\ColorList\AbstractColorList
         return ArrayHelper::map($colors, 'name', 'id');
     }
 
+    /**
+     * @return string
+     */
     public function getModel()
     {
         return 'iproger\yii2\colorlist\models\Color';

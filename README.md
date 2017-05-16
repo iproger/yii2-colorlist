@@ -13,10 +13,10 @@ https://jsfiddle.net/iproger/o17tyym5/2/
 <input type="text" list="colorlist">
 
 <datalist id="colorlist">
-	<option value="Red">
-	<option value="White">
-	<option value="Blue">
-	<option value="Black">
+    <option value="Red">
+    <option value="White">
+    <option value="Blue">
+    <option value="Black">
 </datalist>
 ```
 

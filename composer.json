@@ -1,16 +1,19 @@
 {
     "name": "iproger/yii2-colorlist",
     "description": "List of colors for input hint",
+    "keywords": ["color-list", "yii2", "extension"],
+    "homepage": "https://github.com/iproger/yii2-colorlist",
     "type": "yii2-extension",
     "license": "MIT",
     "authors": [
         {
             "name": "Mykhailo Shatilov",
-            "email": "proger.mixa@gmail.com"
+            "email": "proger.mixa@gmail.com",
+            "role": "Developer"
         }
     ],
-    "homepage": "https://github.com/iproger/yii2-colorlist",
     "require": {
+        "php": ">=5.4.0",
         "yiisoft/yii2": "*",
         "iproger/yii2-extendedhtml": "*"
     },

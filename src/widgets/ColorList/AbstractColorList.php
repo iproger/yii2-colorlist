@@ -6,16 +6,19 @@ abstract class AbstractColorList extends \yii\base\Widget
 {
     public $attributes = [];
 
+    /**
+     * @return mixed
+     */
     final public function run()
     {
         $viewPath = $this->getViewFilePath();
-        $colors   = $this->getColors();
+        $colors = $this->getColors();
 
         return $this->render($viewPath,
-                [
+            [
                 'colors' => $colors,
                 'attributes' => $this->attributes,
-        ]);
+            ]);
     }
 
     public function getViewFilePath()

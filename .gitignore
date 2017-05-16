@@ -1,1 +1,10 @@
-/vendor/
+# OS
+.DS_Store
+Thumbs.db
+
+# vendor
+/vendor
+
+# editor
+.idea/
+nbproject/*
